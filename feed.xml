@@ -13,7 +13,7 @@ layout: null
       <item>
         <description>{{ micro.content | xml_escape }}</description>
         <pubDate>{{ micro.date | date_to_rfc822 }}</pubDate>
-        <guid>{{ micro.title }}</guid>
+        <guid>{{ micro.guid }}</guid>
       </item>
     {% endfor %}
   </channel>
