@@ -14,6 +14,7 @@ layout: null
         <description>{{ micro.content | xml_escape }}</description>
         <pubDate>{{ micro.date | date_to_rfc822 }}</pubDate>
         <guid isPermaLink="false">{{ micro.guid }}</guid>
+        <link></link>
       </item>
     {% endfor %}
   </channel>
